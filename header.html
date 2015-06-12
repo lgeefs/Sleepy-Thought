@@ -1,0 +1,34 @@
+    <?php 
+
+    if (empty($_SESSION['username'])) {
+        $registerString = "<li><a href='/pages/register/register.php'>Register</a></li>";
+        $loginString = "Login";
+        $idString = "href='/pages/login/login.php'";
+        $displayPicture = '';
+    } else {
+        $loginString = $_SESSION['username'];
+        $idString = "id='displayname' href='/pages/profile/profilepage.php'";
+        $uploadedFile = 'uploads/'.$_SESSION['profilepic'];
+        $displayPicture = "<a href='/pages/profile/profilepage.php'><img src='" . $_SESSION['uploadedFile'] . "' height='50px' width='50px' /></a>";
+    }
+
+    ?>
+
+    <div class="nav">
+    	<div class="container">
+        	<ul class="pull-left">
+            	<br>
+                <li><a href="/index.php">Home</a></li>
+            	<li><a href="/pages/categories/categories.php">Categories</a></li>
+            	<?php echo $registerString; ?>
+            	<li><a <?php echo $idString; ?> > <?php echo $loginString; ?> </a></li>
+                <?php echo $displayPicture; ?>
+        	</ul>
+        	<ul class="pull-right">
+           	 	<br>
+            	<li><a href="#">Contact Us</a></li>
+            	<li><a href="#">FAQ</a></li>
+                <li><a href='/logout.php'>Logout</a></li>
+        	</ul>
+    	</div>
+	</div>

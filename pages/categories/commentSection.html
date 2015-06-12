@@ -1,0 +1,19 @@
+<br><br><br><br><br><br><br><br>
+<form action='addpost.php' method='post'>
+<?php
+if ($_SESSION['error'] == true) {
+	echo "<div id='error'>Please <a href='../login/login.php'>login</a> first</div>";
+}
+?>
+<h2>Post your dream!</h2><br>
+<label for='paragraph'>What was your dream about?</label><br>
+<textarea name='paragraph' placeholder='Explain your dream here...'></textarea><br>
+<input type='radio' name='tag' value='Funny' checked />&nbsp;Funny<br>
+<input type='radio' name='tag' value='Horror'/>&nbsp;Horror<br>
+<input type='radio' name='tag' value='Explicit'/>&nbsp;Explicit<br>
+<input type='radio' name='tag' value='Fantasy'/>&nbsp;Fantasy<br>
+<input type='radio' name='tag' value='Romance'/>&nbsp;Romance<br>
+<input type='radio' name='tag' value='Confusing'/>&nbsp;Confusing<br><br>
+<button type='submit' value='submit' name='submit'>Post Dream</button>
+</form>
+<br>

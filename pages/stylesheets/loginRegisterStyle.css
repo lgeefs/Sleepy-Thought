@@ -1,0 +1,38 @@
+h1 {
+	color: lightblue;
+	font-size: 84px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px white;
+	font-weight: bold;
+}
+
+form {
+	font-size: 24px;
+	margin-left: 3em;
+	text-align: center;
+}
+
+input {
+	font-size: 24px;
+	color: black;
+}
+
+button {
+	color: black;
+	font-size: 30px;
+	border-radius: 7px;
+	border-color: black;
+	background-color: white;
+	padding: 0px 10px 0px 10px;
+}
+
+button a {
+	color: black;
+	font-size: 30px;
+}
+
+h2 {
+	text-align: center;
+	color: red;
+}

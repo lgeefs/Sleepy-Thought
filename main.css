@@ -1,0 +1,196 @@
+body {
+	background-color: darkblue;
+	color: white;
+	font-size: 24px;
+	font-family: 'Times New Roman' sans-serif;
+}
+
+.hits {
+	position: absolute;
+}
+
+.nav {
+	position: fixed;
+}
+
+.nav li {
+	display: inline;
+	font-size: 24px;
+	font-family: 'Times New Roman' serif;
+	text-transform: uppercase;
+	padding: 7px 5px 5px 5px;
+	border-radius: 5px;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	background-color: aqua;
+}
+
+.nav a {
+	color: black;
+	text-shadow: 1px 2px white;
+}
+
+.nav img {
+	border-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+}
+
+#displayname {
+	text-transform: none;
+	padding: 0px 20px 0px 20px;
+}
+
+.jumbotron {
+	background-image: url('http://ayurvedicbliss.com/wp-content/uploads/2014/05/Fotolia_49271043_Subscription_Monthly_M.jpg');
+	height: 1000px;
+}
+
+.jumbotron h1 {
+	color: aqua;
+	font-family: 'Times New Roman' sans-serif;
+	text-shadow: 2px 2px blue;
+	font-size: 96px;
+}
+
+.jumbotron p {
+	color: aqua;
+	font-family: 'Times New Roman' sans-serif;
+	text-shadow: 1px 1px white;
+	font-size: 36px;
+}
+
+.jumbotron a {
+	color: aqua;
+	text-shadow: 1px 1px white;
+	background-color: darkblue;
+	font-size: 28px;
+	border-radius: 7px;
+	border-width: 2px;
+	border-color: white;
+	border-style: solid;
+	padding: 3px 10px 3px 10px;
+	text-shadow: 1px 0px white;
+	display: inline;
+}
+
+#footer {
+	color: black;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Arial' sans-serif;
+	text-shadow: 1px 1px blue;
+}
+
+
+
+/**************************/
+/**************************/
+/**************************/
+/**************************/
+/**************************/
+/**************************/
+/**************************/
+/**************************/
+/*If using a mobile device*/
+/**************************/
+/**************************/
+/**************************/
+/**************************/
+/**************************/
+/***********|--|***********/
+/***********|__|***********/
+/**************************/
+
+
+
+@media screen and (max-device-width: 640px) {
+
+body {
+	background-color: lightblue;
+	color: white;
+	font-size: 14px;
+	font-family: 'Times New Roman' sans-serif;
+}
+
+.nav {
+	position: fixed;
+	top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.nav li {
+	display: inline;
+	font-size: 12px;
+	font-family: 'Times New Roman' serif;
+	text-transform: uppercase;
+	padding: 5px 3px 3px 5px;
+	border-radius: 5px;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	background-color: aqua;
+}
+
+.nav a {
+	color: black;
+	text-shadow: 1px 2px white;
+}
+
+.nav img {
+	border-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+}
+
+#displayname {
+	text-transform: none;
+	padding: 0px 20px 0px 20px;
+}
+
+.jumbotron {
+	background-image: url('http://ayurvedicbliss.com/wp-content/uploads/2014/05/Fotolia_49271043_Subscription_Monthly_M.jpg');
+	height: 1000px;
+}
+
+.jumbotron h1 {
+	color: aqua;
+	font-family: 'Times New Roman' sans-serif;
+	text-shadow: 2px 2px blue;
+	font-size: 72px;
+}
+
+.jumbotron p {
+	color: aqua;
+	font-family: 'Times New Roman' sans-serif;
+	text-shadow: 1px 1px white;
+	font-size: 24px;
+}
+
+.jumbotron a {
+	color: aqua;
+	text-shadow: 1px 1px white;
+	background-color: darkblue;
+	font-size: 18px;
+	border-radius: 7px;
+	border-width: 2px;
+	border-color: white;
+	border-style: solid;
+	padding: 3px 10px 3px 10px;
+	text-shadow: 1px 0px white;
+	display: inline;
+}
+
+#footer {
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Arial' sans-serif;
+	text-shadow: 1px 1px blue;
+}
+
+}

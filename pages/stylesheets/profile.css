@@ -1,0 +1,64 @@
+.profilebox {
+	margin-left: 10%;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+.settingsbox {
+	margin-left: 55%;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	padding: 5px 50px 5px 50px;
+}
+
+a {
+	color: lightblue;
+}
+
+.changedetails {
+	text-align: center;
+}
+
+.changedetails button {
+	color: black;
+}
+
+.changedetails input {
+	color: black;
+}
+
+h1 {
+	text-align: center;
+}
+
+.uploadPic {
+	padding-left: 15px;
+}
+
+label {
+	padding-left: 15px;
+}
+
+#preview {
+	padding-left: 15px;
+}
+
+input {
+	padding-top: 10px;
+}
+
+input[name='submit'] {
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	border-color: black;
+}
