@@ -1,8 +1,8 @@
 <?php
 
 $dbhost = 'localhost';
-$dbuser = 'logan';
-$dbpass = '101monkeydude';
+$dbuser = '*********';
+$dbpass = '*************';
 $dbname = 'Users';
 
 
